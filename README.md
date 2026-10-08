@@ -33,7 +33,7 @@ ipaddress
 Run the program with:
 
 ```bash
-python3 port_scanner.py
+python3 main.py
 ```
 
 You will be prompted to enter the target IPv4 address and the port range.
@@ -99,7 +99,7 @@ After scanning, the program uses `socket.getservbyport()` to retrieve the servic
 
 ```text
 port-scanner/
-└── port_scanner.py
+└── main.py
 ```
 
 ## Purpose
